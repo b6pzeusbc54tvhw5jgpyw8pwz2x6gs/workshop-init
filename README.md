@@ -33,7 +33,7 @@ apt-get -y update
 apt-get -y install nodejs
 npm install -g wetty
 
-$ cat <<EOF > /lib/systemd/system/wetty.service
+cat <<EOF > /lib/systemd/system/wetty.service
 [Unit]
 Description=wetty service
 After=network.target
